@@ -31,7 +31,7 @@ public class CatComplete {
         System.out.printf("%s accepts %d pets.", name, number);
     }
 
-    public static void getPets(Cat cat, int number) {
+    public static void getPets(CatComplete cat, int number) {
         System.out.printf("%s accepts pets.", cat.name, number);
     }
 }
