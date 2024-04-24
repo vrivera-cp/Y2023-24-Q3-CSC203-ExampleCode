@@ -3,7 +3,7 @@ package Module4;
 public class InheritanceMain {
     public static void main(String[] args) {
         // Up Cast
-        SuperHero otherHero = new SecretHero("tony", "iron man", "intelligence");
+        SuperHero otherHero = new SecretHero("iron man", "intelligence", "tony");
 
         // Down Cast
         SecretHero sameHero = (SecretHero) otherHero;
